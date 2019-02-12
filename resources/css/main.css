@@ -20,6 +20,43 @@ body {
     color: #f8f9f6;
 }
 
+/********** NAVIGATION **********/
+
+.navbar {
+    background-color: #f8f8f8;   
+} 
+
+.nav-item {
+    padding-left: 2.3rem;
+}
+
+.nav-item a {
+    color: #857474;
+    font-weight: 400;
+    font-style: italic;
+    text-decoration: none;
+}
+
+.name h4 {
+    color: #857474;
+    font-family: 'Spirax', cursive;
+    text-decoration: none;
+}
+
+.jumbotron {
+    background-color: #37384c;
+    height: 1vh;
+}
+
+.jumbotron h1 {
+    font-size: 4.5rem;
+    text-align: right;  
+}
+
+.jumbotron h3 {
+    text-align: center;
+}
+
 
 
 
