@@ -3,6 +3,16 @@
     font-family: 'Playfair Display', serif;
 }
 
+h1,
+h2 {
+    text-align: center;
+}
+
+.row {
+    margin: 0 auto;
+    text-align: center;
+}
+
 
 
 /* font-family: 'Gayathri', sans-serif;
