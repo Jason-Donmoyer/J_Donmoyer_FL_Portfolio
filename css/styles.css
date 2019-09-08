@@ -1,6 +1,16 @@
 * {
     box-sizing: border-box;
     font-family: 'Playfair Display', serif;
+    margin:  0;
+}
+
+a {
+    color: #000;
+}
+
+a:hover {
+    text-decoration: none;
+    color: burlywood;
 }
 
 h1,
@@ -11,6 +21,77 @@ h2 {
 .row {
     margin: 0 auto;
     text-align: center;
+}
+
+.main-row {
+    margin-bottom: 30px;
+}
+
+#projects {
+    padding: 20px;
+}
+
+#about {
+    padding-bottom: 20px;
+    background-color: azure;
+}
+
+#projects {
+    background-color: azure;
+}
+
+li {
+    list-style-type: none;
+}
+
+.thumb-img {
+    padding: 10px;
+    margin: 10px;
+    background-color: rgba(211, 211, 211, 0.3);
+    border-radius: 3px;
+    max-width: 90%;
+}
+
+.thumb-img img {
+    max-width: 100%
+}
+
+figcaption {
+    max-width: 290px;
+    margin: 10px auto;
+}
+figcaption a {
+    color: darkblue;
+}
+
+#contact {
+    height: 200px;
+    margin-top: 30px;
+}
+
+@media screen and (min-width: 768px) {
+    .main-row {
+        margin-top: 4px;
+    }
+
+    .thumb-img {
+        max-width: 42%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+    .main-row {
+        margin-top: 8px;
+    }
+
+    .thumb-img {
+        max-width: 30%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 
